@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Helvetica', Arial;
+  font-size: 1.4em;
+  text-align: center;
+  color: #322;
+  line-height: 1.3;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+main {
+  background: #f9f9f9;
+}
+
+.book-list {
+  display: flex;
+  text-align: justify;
+}
+
+.book-cover {
+  padding: 1.2em;
+  width: 16em;
+}
+
+#book1:hover {
+  animation-name: expansion-cover1;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes expansion-cover1 {
+  100% {
+    width: 85em;
+  }
+}
+
+#book2:hover {
+  animation-name: expansion-cover2;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes expansion-cover2 {
+  100% {
+    width: 65em;
+  }
+}
+
+.about-books {
+  padding: 1.2em;
+  margin: 0.3em;
+}
+
+.references {
+  font-size: 0.7em;
+}
+
+#quotation {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 400px;
+  margin-left: 50%;
+  right: 50%;
+}
+
+#credits {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+#tribute-info {
+  margin-top: 200px;
+}
+
+#title {
+  margin-bottom: 100px;
+}
