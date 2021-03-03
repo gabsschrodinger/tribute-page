@@ -2,4 +2,4 @@
 
 # tribute-page
 
-This website was developed during the Responsive Web Design Certification at freeCodeCamp, in Jan 22, 2021. For more information about freeCodeCamp, please visit: https://www.freecodecamp.org/learn/
+This website was developed during the Responsive Web Design Certification at freeCodeCamp, in Jan, 2021. For more information about freeCodeCamp, please visit: https://www.freecodecamp.org/learn/
